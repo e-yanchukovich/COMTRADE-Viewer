@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recordConfig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_8">
+
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/station_name" />
+
+            <TextView
+                android:id="@+id/stationNameTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/id" />
+
+            <TextView
+                android:id="@+id/idTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/file_type" />
+
+            <TextView
+                android:id="@+id/fileTypeTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/analog_channels" />
+
+            <TextView
+                android:id="@+id/analogChannelNumberTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/discrete_channels" />
+
+            <TextView
+                android:id="@+id/discreteChannelNumber_textView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/frequency" />
+
+            <TextView
+                android:id="@+id/gridFrequencyTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/start_time" />
+
+            <TextView
+                android:id="@+id/startTimeTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/ConfigTitleTextStyle"
+                android:padding="@dimen/dp_4"
+                android:text="@string/trigger_time" />
+
+            <TextView
+                android:id="@+id/triggerTimeTextView"
+                style="ConfigTextTitleStyle"
+                android:padding="@dimen/dp_4"
+                android:paddingStart="@dimen/dp_8"
+                tools:text="text" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
